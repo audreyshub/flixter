@@ -1,5 +1,6 @@
 class Course < ActiveRecord::Base
 	belongs_to :user
+	has_many :sections
 
 	validates :title, :presence => { :message => "Doh, you didn't enter a title!" }
 	validates :description, :presence => true
