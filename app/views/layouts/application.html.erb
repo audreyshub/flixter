@@ -6,6 +6,14 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width">
+  <link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+  <script src="http://vjs.zencdn.net/4.12/video.js"></script>
+  <style type="text/css">
+    .vjs-default-skin .vjs-play-progress,
+    .vjs-default-skin .vjs-volume-level { background-color: #ff002e }
+    .video-js {padding-top: 56.25%}
+    .vjs-fullscreen {padding-top: 0px}
+  </style>
 </head>
 <body>
   <div id="wrap">
