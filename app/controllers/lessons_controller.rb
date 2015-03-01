@@ -10,7 +10,7 @@ class LessonsController < ApplicationController
 		course = current_lesson.section.course
 
 		if current_user.enrolled_in?(course) != true
-			redirect_to course_path(course), :alert => 'Please enroll in this course'
+			redirect_to course_path(course), :alert => 'Oops, you are not enrolled. Please enroll to view lesson.'
 		end
 	end	
 
