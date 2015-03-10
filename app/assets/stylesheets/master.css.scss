@@ -7,7 +7,7 @@
 
 .navbar-header a.navbar-brand {
 	font-family: "hartingplain";
-	font-weight: 200;
+	font-weight: 400;
 	color: #FF005D;
 }
 
@@ -139,13 +139,21 @@ ul .header .glyphicon {
 
 .icons {
 	height:80px;
-	margin-top:25px;
-	margin-bottom: 25px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 h4 {
-	color: #777777;
+	color: #555555;
 	font-weight: 100;
+}
+
+.label {
+	font-size: 13px;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 0;
 }
 
 
