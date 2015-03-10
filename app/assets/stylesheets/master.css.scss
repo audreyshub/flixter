@@ -3,25 +3,22 @@
 	border-weight:0;
 	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 	font-weight: 200;
-	#box-shadow: 0px 1px 3px #2a2a2a;
-	background:url('maze.png');
-	
 }
 
 .navbar-header a.navbar-brand {
 	font-family: "hartingplain";
-	font-weight: 150;
+	font-weight: 200;
 	color: #FF005D;
 }
 
 .hero {
-	background: url('messy.jpg') no-repeat 50% 80%;
+	background: url('desk.jpeg') no-repeat 50% 5%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height:370px;
-	box-shadow: 0px 3px 8px #2a2a2a;
+	height:380px;
+	
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
@@ -30,7 +27,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .frosty {
 	color:white;
-	background:rgba(0,0,0,0.7);
+	background:rgba(0,0,0,0.5);
 }
 
 .frosty h1 {
@@ -139,4 +136,16 @@ ul .header .glyphicon {
 .lessons li p {
 	margin: 0;
 }
+
+.icons {
+	height:80px;
+	margin-top:25px;
+	margin-bottom: 25px;
+}
+
+h4 {
+	color: #777777;
+	font-weight: 100;
+}
+
 
